@@ -1,0 +1,25 @@
+.slider{
+    height: 420px;
+    background-color: white;
+}
+.slider-header{
+    font-size: x-large;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom :40px;
+
+}
+.slider-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.last-slides{
+    opacity: 0.2;
+}
+.slider-container img{
+    height: 250px;
+}
+.slider-container img:hover{
+    cursor: pointer;
+}

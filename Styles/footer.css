@@ -1,0 +1,199 @@
+.footer{
+    height: 480px;
+    background-color: #2E013D;
+    display: grid;
+    grid-template-rows: 100px 1fr 60px;
+    
+
+}
+.planning-form{
+    background-color: #550F5D;
+    padding-left: 90px;
+    padding-right: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.planning-text{
+    flex: 1;
+}
+.head-planning{
+    font-size: 20px;
+    margin: 0px;
+
+}
+.text-planning{
+    margin-top: 6px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    flex: 1;
+}
+
+.email-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 19px;
+    margin-right: 50px;
+}
+.form-section p{
+    font-size:13px;
+    font-weight: 200;
+    color: rgb(203, 203, 203);
+    margin-bottom: 8px;
+}
+.form-section input{
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 16px;
+    background-color: #550F5D;
+    width: 250px;
+}
+.form-section input::placeholder{
+    color: rgb(167, 167, 167);
+
+}
+.form-section input:focus{
+    outline: none;
+    transition: 0.3s;
+    border-bottom: 2px solid orangered;
+}
+.btn-sub{
+    width: 180px;
+    background-color: rgb(235, 63, 0);
+    height: 40px;
+    border-radius: 3px;
+    
+}
+.btn-sub:hover{
+    cursor: pointer;
+}
+.btn-sub p{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.about-section{
+    background-color: #3A1248;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.about-bar{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+.bar-elements{
+    color: gray;
+    padding: 23px;
+}
+.bar-elements:hover{
+    cursor: pointer;
+}
+.active-bar{
+    color: orangered;
+    border-bottom: 1px solid orangered;
+}
+.about-discription{
+    color: rgb(207, 207, 207);
+    padding: 30px 30px 37px 0px;
+    border-bottom: 1px solid gray;
+    box-shadow: inset 0px -11px 8px -10px rgb(36, 0, 36); 
+    position: relative;
+}
+.dis-head{
+    font-size: 20px;
+    margin: 0;
+}
+.dis-text{
+    font-size: 11px;
+    line-height: 23px;
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+.page-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.list-links{
+    display: inline;
+}
+.dot-char{
+    height: 5px;
+    width:5px;
+    border-radius: 10px;
+    background-color:  rgb(207, 207, 207);
+    margin-bottom: 3px;
+}
+.nav-links ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.nav-links ul li{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 300px;
+    color:  rgb(207, 207, 207);
+    margin-right: 8px;
+}
+.nav-links ul li:hover{
+    cursor: pointer;
+}
+.social-media{
+    width: 200px;
+    background-color: #3A1248;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+.social-media i{
+    font-size:16px;
+    margin-left: 15px;
+}
+.social-media i:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 600;
+    padding-top: 24px;
+}
+
+.more-btn{
+    position: absolute;
+    font-size: 12px;
+    font-weight: 600;
+    color: orangered;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.more-btn p{
+    margin-top: 16px;
+    margin-left: 1157px;
+    margin-right: 10px;
+}
+.more-btn:hover{
+    cursor: pointer;
+}

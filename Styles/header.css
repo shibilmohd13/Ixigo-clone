@@ -1,0 +1,112 @@
+
+header{
+    height: 68px;
+    background-color: white;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    height: 68px;
+    position: fixed;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    top:0;
+}
+
+/* -----------------------------------Left Section--------------------------- */
+
+.header-left{
+    background-color: white;
+    flex: 6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+.logo{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+
+}
+.orange-hover{
+    filter: invert(42%) sepia(63%) saturate(6264%) hue-rotate(1deg) brightness(102%) contrast(105%);
+}
+.header-elements:hover{
+    transition: ease-in-out .1s;
+    filter: invert(42%) sepia(63%) saturate(6264%) hue-rotate(1deg) brightness(102%) contrast(105%);
+}
+.active-icon:hover{
+    filter: none;
+}
+.header-elements p{
+    margin-left: 6px;
+}
+.header-elements img{
+    height: 30px;
+    margin-top: 10px;
+}
+.logo-ixigo{
+    height: 50px;
+    margin-top: 10px;
+}
+.header-elements .down-arrow{
+    color: orangered;
+    height: 9px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+}
+.down-arrow:hover{
+    cursor: pointer;
+    filter: none;
+}
+.holyday-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.holyday-div img{
+    margin-top: 0px;
+}
+.new-tag{
+    position: absolute;
+    color: white;
+    background-color: rgb(221, 62, 4);
+    padding: 3px 6px;
+    font-size: 11px;
+    border-radius: 12px;
+    margin-top: -30px;
+    margin-left: -168px;
+    cursor: pointer;
+}
+
+/* -----------------------------------Right Section--------------------------- */
+
+.header-right{
+    background-color: white;
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    padding-left: 70px;
+}
+.header-right .header-elements{
+    margin-left: 20px;
+}
+.header-right img{
+    margin-top: 12px;
+}
+
+

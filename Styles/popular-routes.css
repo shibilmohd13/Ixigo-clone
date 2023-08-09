@@ -1,0 +1,123 @@
+.popular-routes{
+    width: 100%;
+    height: 380px;
+
+}
+.routes-container{
+    width: 1280px;
+    height: 100%;
+    margin-left:120px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgb(154, 154, 154);
+}
+.popular-heading{
+    font-size: 30px;
+    font-weight: 600;
+    color: orangered;
+    background-color: white;
+    text-align: center;
+    height: 70px;
+    padding-top: 30px;
+}
+.popular-grid-container{
+    display: grid;
+    grid-template-columns: 380px 380px 380px;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding-left: 60px;
+}
+.popular-grids{
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+}
+.popular-grid-images{
+    width: 70px;
+    background-color: white;
+}
+
+.popular-grid-text{
+    flex:1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.from-place{
+    height: 50%;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.to-places{
+    height: 50%;
+    font-size: 13px;
+}
+.to-places span:hover{
+    cursor: pointer;
+}
+.orange-color{
+    color: orangered;
+}
+.popular-image-icon{
+    height: 50px;
+    width: 50px;
+    
+}
+.popular-image-icon img{
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+/*-----------------------------Popular Domestic---------------------------------*/
+
+.pop-dom-airlines{
+    width: 100%;
+    height: 230px;
+    margin-bottom: 50px;
+
+}
+.domestic-container{
+    width: 1280px;
+    height: 100%;
+    margin-left:120px;
+    margin-top: 50px;
+    background-color: white;
+    box-shadow: 0px 0px 7px rgb(154, 154, 154);
+}
+.domestic-container .popular-heading{
+    padding-top: 25px;
+}
+.airlines{
+    height: 130px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.air-companies{
+    background-color: white;
+    width: 130px;/*cahaaaaaaaaaaaaaangeee*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.com-logo{
+    width: 60px;
+    padding-bottom: 10px;    
+}
+.com-name{
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.com-name:hover{
+    cursor: pointer;
+}

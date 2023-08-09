@@ -1,0 +1,60 @@
+.application-ad{
+    width: 100%;
+    background-color: white;
+    height: 480px;
+}
+.app-ad-white{
+    display: flex;
+    flex-direction: row;
+    height: 310px;
+    background-color: white;
+    justify-content: center;
+    align-items:end;
+    position: relative;
+
+}
+.get-text-app-ad{
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding-left: 150px;
+}
+.phone-image{
+    position: absolute;
+    
+}
+.phone-image img{
+    height: 400px;
+    width: 210px;
+    margin-left: -440px;
+    margin-bottom: -144px;
+}
+.app-ad-gray{
+    height: 170px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    padding-left: 610px;
+
+}
+.stores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.stores img{
+    width: 150px;
+    margin-right: 30px;
+}
+.stores img:hover{
+    cursor: pointer;
+}
+.rating img{
+    height: 20px;
+    margin-top: 10px;
+}
+.rating p{
+    font-size: 12px;
+    margin-top: 5px;    
+}
