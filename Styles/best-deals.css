@@ -8,7 +8,7 @@
     height: 100%;
     margin-left:120px;
     margin-top: 50px;
-    background-color: white;
+    background-color: #ffffff;
     box-shadow: 0px 0px 7px rgb(154, 154, 154);
 }
 .content-deals{
@@ -16,7 +16,7 @@
     width: 80%;
     padding-top: 50px;
     margin-left:125px;
-    background-color: white;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
 }
@@ -25,19 +25,19 @@
 }
 .line-break{
     height: 1px;
-    background-color: lightgray;
+    background-color: #d3d3d3;
 }
 
 .heading-best-deals{
     font-size: 30px;
     font-weight: 600;
-    color: orangered;
-    background-color: white;
+    color: #ff4500;
+    background-color: #ffffff;
     text-align: center;
     height: 70px;
 }
 .content-deals .search-elements{
-    background-color: white;
+    background-color: #ffffff;
     margin-left: 0px;
     height: auto;
 }
@@ -49,7 +49,7 @@
     width: 160px;
 }
 .rows input::placeholder{
-    color: gray;
+    color: #808080;
     font-size: 15px;
 }
 .continent-box{
@@ -57,24 +57,24 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color: #ffffff;
 }
 .box-continent{
-    background-color: white;
+    background-color: #ffffff;
     height: 30px;
     margin-top: 13px;
     margin-bottom: 14px;
     margin-left: 20px;
     padding:8px 10px -0px 12px;
     border-radius: 20px;
-    color: gray;
+    color: #808080;
     border: 1px solid rgb(172, 172, 172);
     font-size: 14px;
 }
 .box-continent:hover{
-    border-color: orangered;
-    background-color: orangered;
-    color: white;
+    border-color: #ff4500;
+    background-color: #ff4500;
+    color: #ffffff;
     cursor: pointer;
 }
 
@@ -84,13 +84,13 @@
     flex-direction: row;
     justify-content: right;
     padding-bottom: 25px;
-    background-color: white;
+    background-color: #ffffff;
     
 }
 .popularity p{
     margin: 0;
     padding: 0;
-    color: gray;
+    color: #808080;
     font-size: 14px;
 }
 .popularity img{
@@ -110,12 +110,12 @@
     justify-content: space-between;
     column-gap: 20px;
     row-gap: 29px;
-    background-color: white;
+    background-color: #ffffff;
 
 }
 .place-photo-grid{
     height: 270px;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid rgb(217, 217, 217);
 }
 .place-photo-grid:hover{
@@ -124,7 +124,7 @@
 }
 .grid-main-photo{
     height: 190px;
-    background-color: red;
+    background-color: #ff0000;
 }
 .grid-main-photo img{
     height: 100%;
@@ -139,7 +139,7 @@
     padding-top: 15px;
 }
 .grid-text-container{
-    background-color: white;
+    background-color: #ffffff;
 }
 .right-align{
     text-align: right;

@@ -1,13 +1,13 @@
 .application-ad{
     width: 100%;
-    background-color: white;
+    background-color: #ffffff;
     height: 480px;
 }
 .app-ad-white{
     display: flex;
     flex-direction: row;
     height: 310px;
-    background-color: white;
+    background-color: #ffffff;
     justify-content: center;
     align-items:end;
     position: relative;
